@@ -1,7 +1,7 @@
 # Serialize-Deserialize
 
 ## About
-Simple Serialize-Deserialze program with C# with Unit Testing
+Simple Serialize-Deserialze program with C# with Unit Testing with StarWars BattleFront II Troop Type
 
 ## Program Result
 ![alt text](https://github.com/marvel-natanael/Serialize-Deserialize/blob/main/Image%209.png)
