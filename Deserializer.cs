@@ -7,21 +7,13 @@ using Troop;
 namespace Deserializer{
   public class DeserializerApp
   {
-      
-	  static void Main()
+      public int Deserialize()
       {
-          DeserializerApp serializerApp = new DeserializerApp();
-          serializerApp.Deserialize();
-          Console.ReadLine();
-      }
-	  
-
-      void Deserialize()
-      {
+          bool isDone = true;
           MyTroop myTroop = new MyTroop();
 
           // Open the serialized file
-          FileStream fs = new FileStream("ReadThis.txt", FileMode.Open);
+          FileStream fs = new FileStream("C:/Users/natan/Serialization/ReadThis.txt", FileMode.Open);
           try
           {
 			  //Deserialize
@@ -31,6 +23,7 @@ namespace Deserializer{
           }
           catch (SerializationException e)
           {
+              isDone = false;
               Console.WriteLine("Failed to deserialize. Reason: " + e.Message);
               throw;
           }
@@ -38,8 +31,16 @@ namespace Deserializer{
           {
               fs.Close();
           }
+
 		  //Print output
           myTroop.PrintValue();
+          
+          if(isDone){
+              return 1;
+          }
+          else{
+              return 0;
+          }
       }
   }
 }
