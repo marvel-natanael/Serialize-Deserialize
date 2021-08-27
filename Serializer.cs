@@ -7,6 +7,7 @@ using Troop;
 namespace Serializer{
   public class SerializerApp
   {
+    FileStream fs = new FileStream("C:/Users/natan/Serialization/ReadThis.txt", FileMode.Create);
     public int Serialize()
     {
       bool isDone = true;
@@ -26,13 +27,12 @@ namespace Serializer{
         myTroop.cards.Add(Console.ReadLine());
       }
 
-      FileStream fs = new FileStream("C:/Users/natan/Serialization/ReadThis.txt", FileMode.Create);
-
       //Serialize to binary
       BinaryFormatter formatter = new BinaryFormatter();
       try
       {
         formatter.Serialize(fs, myTroop);
+        myTroop.WriteValue("C:/Users/natan/Serialization/Input.txt");
       }
       catch (SerializationException e)
       {

@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.IO;
 
 namespace Troop{
 	[Serializable]
@@ -17,6 +18,18 @@ namespace Troop{
 		Console.WriteLine("your troop weapon is " + weapon);
 		foreach (var card in cards){
 			Console.WriteLine(card + " is your card");
+		}
+	}
+	public void WriteValue(string path){
+		using (StreamWriter writer = new StreamWriter(path)){
+			writer.WriteLine(type);
+			writer.WriteLine(level);
+			writer.WriteLine(skin);
+			writer.WriteLine(weapon);
+			foreach (var card in cards){
+			writer.WriteLine(card);
+			}
+			writer.Close();
 		}
 	}
 	public MyTroop(){}

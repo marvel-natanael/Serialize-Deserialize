@@ -18,8 +18,8 @@ namespace Deserializer{
           {
 			  //Deserialize
               BinaryFormatter formatter = new BinaryFormatter();
-
               myTroop = (MyTroop) formatter.Deserialize(fs);
+              myTroop.WriteValue("C:/Users/natan/Serialization/Output.txt");
           }
           catch (SerializationException e)
           {
