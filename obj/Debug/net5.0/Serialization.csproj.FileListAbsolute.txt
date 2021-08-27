@@ -1,0 +1,16 @@
+C:\Users\natan\Serialization\obj\Debug\net5.0\Serialization.csproj.AssemblyReference.cache
+C:\Users\natan\Serialization\obj\Debug\net5.0\Serialization.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\natan\Serialization\obj\Debug\net5.0\Serialization.AssemblyInfoInputs.cache
+C:\Users\natan\Serialization\obj\Debug\net5.0\Serialization.AssemblyInfo.cs
+C:\Users\natan\Serialization\obj\Debug\net5.0\Serialization.csproj.CoreCompileInputs.cache
+C:\Users\natan\Serialization\bin\Debug\net5.0\Serialization.exe
+C:\Users\natan\Serialization\bin\Debug\net5.0\Serialization.deps.json
+C:\Users\natan\Serialization\bin\Debug\net5.0\Serialization.runtimeconfig.json
+C:\Users\natan\Serialization\bin\Debug\net5.0\Serialization.runtimeconfig.dev.json
+C:\Users\natan\Serialization\bin\Debug\net5.0\Serialization.dll
+C:\Users\natan\Serialization\bin\Debug\net5.0\ref\Serialization.dll
+C:\Users\natan\Serialization\bin\Debug\net5.0\Serialization.pdb
+C:\Users\natan\Serialization\obj\Debug\net5.0\Serialization.dll
+C:\Users\natan\Serialization\obj\Debug\net5.0\ref\Serialization.dll
+C:\Users\natan\Serialization\obj\Debug\net5.0\Serialization.pdb
+C:\Users\natan\Serialization\obj\Debug\net5.0\Serialization.genruntimeconfig.cache
